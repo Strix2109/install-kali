@@ -106,7 +106,7 @@ cd $HOME
 
 ls
 
-rm -rf kalimux
+rm -rf install-kali
 
 ls
 
