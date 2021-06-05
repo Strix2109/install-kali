@@ -94,7 +94,7 @@ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 
 ls
 
-cd kalimux
+cd install-kali
 
 ls
 
