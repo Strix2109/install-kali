@@ -12,3 +12,25 @@
   <span> - </span>
   <a href="https://strixkingdom.blogspot.com/?m=0"><b>STRIX.D WEBSITE</b></a>
 </p>
+
+### REQUIREMENTS :
+* internet
+* Termux
+* storage 1 GB
+* vnc vivewer app
+
+
+## Installation in Termux
+* `apt-get update -y`
+* `apt-get upgrade -y`
+* `pkg install python -y`
+* `pkg install python2 -y`
+* `pkg install git -y`
+* `pip install lolcat`
+* `git clone https://github.com/Strix2109/install-kali`
+* `cd $HOME`
+* `ls`
+* `cd install-kali`
+* `ls`
+* `bash install-kali.sh`
+   
