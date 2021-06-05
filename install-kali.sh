@@ -1,4 +1,4 @@
-#kalimux by N17R0 (noob hackers)
+#install-kali by Strix cyber community
 
 #colours
 cyan='\033[1;36m'
