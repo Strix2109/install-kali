@@ -1,5 +1,5 @@
 #install-kali by Strix cyber community
-
+folder=${HOME}kali-fs
 #colours
 cyan='\033[1;36m'
 green='\033[1;32m'
@@ -9,7 +9,7 @@ b='\033[1;34m'
 p='\033[1;35m'
 reset='\033[0m'
 echo " "
-echo " $red
+echo -e "$red
    ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄     ▄▄▄▄▄▄   ▄▄▄  ▄▄▄            ▄▄   ▄▄▄     ▄▄     ▄▄        ▄▄▄▄▄▄
  ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀██   ▀▀██▀▀    ██▄▄██             ██  ██▀     ████    ██        ▀▀██▀▀
  ██▄          ██     ██    ██     ██       ████              ██▄██       ████    ██          ██
@@ -19,68 +19,68 @@ echo " $red
   ▀▀▀▀▀       ▀▀     ▀▀    ▀▀▀  ▀▀▀▀▀▀   ▀▀▀  ▀▀▀            ▀▀    ▀▀  ▀▀    ▀▀  ▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀
                                                        version 3.0 "
 
-echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 echo " "
-echo "$green                   <--[Made by Sant kr.(Admin of Strix cyber Community]-->"
+echo -e "$green                   <--[Made by Sant kr.(Admin of Strix cyber Community]-->"
 
-echo "$cyan                ************************** "
-echo "$green              <~~(YouTube- STRIX.D)~~>"
-echo "$green              <~~(Instagram- @strix_21)~~>"
-echo "$green              <~~(GitHub- github.com/Strix2109)~~>"
+echo -e "$cyan                ************************** "
+echo -e "$green              <~~(YouTube- STRIX.D)~~>"
+echo -e "$green              <~~(Instagram- @strix_21)~~>"
+echo -e "$green              <~~(GitHub- github.com/Strix2109)~~>"
 echo " "
-echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
 echo " "
-echo  $p 'Please Wait ===+['$b'./                   '$p']\'
+echo -e $p 'Please Wait ===+['$b'./                   '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'..\                  '$p']|'
+echo -e $p 'Please Wait ===+['$b'..\                  '$p']|'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.../                 '$p']/'
+echo -e $p 'Please Wait ===+['$b'.../                 '$p']/'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'....\                '$p']\'
+echo -e $p 'Please Wait ===+['$b'....\                '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'...../               '$p']|'
+echo -e $p 'Please Wait ===+['$b'...../               '$p']|'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'......./             '$p']/'
+echo -e $p 'Please Wait ===+['$b'......./             '$p']/'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'........\            '$p']|'
+echo -e $p 'Please Wait ===+['$b'........\            '$p']|'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'........../          '$p']\'
+echo -e $p 'Please Wait ===+['$b'........../          '$p']\'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'..........\          '$p']/'
+echo -e $p 'Please Wait ===+['$b'..........\          '$p']/'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'............./       '$p']|'
+echo -e $p 'Please Wait ===+['$b'............./       '$p']|'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'..............\      '$p']/'
+echo -e $p 'Please Wait ===+['$b'..............\      '$p']/'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'............./       '$p']\'
+echo -e $p 'Please Wait ===+['$b'............./       '$p']\'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'...............\     '$p']|'
+echo -e $p 'Please Wait ===+['$b'...............\     '$p']|'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'................/    '$p']/'
+echo -e $p 'Please Wait ===+['$b'................/    '$p']/'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.................\   '$p']\'
+echo -e $p 'Please Wait ===+['$b'.................\   '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.................../ '$p']|'
+echo -e $p 'Please Wait ===+['$b'.................../ '$p']|'
 sleep 0.4
 clear
 
-echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
+echo -e "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
 echo " "
 cd $HOME
@@ -110,18 +110,62 @@ rm -rf install-kali
 
 ls
 
-echo "$p------->$yellow [copy below command] $p<--------"
+echo -e "$p------->$yellow [copy below command] $p<--------"
 echo " "
 cat dekal.txt
 echo " "
-echo "$p------->$yellow [installation completed] $p<--------"
+echo -e "$p------->$yellow [installation completed] $p<--------"
 echo " "
 sleep 50.10
-echo "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
+echo -e "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
 echo " "
 sleep 4.30
 echo " "
 clear
 rm dekal.txt
 echo " "
+cat > $folder/root/.bash_profile <- EOM
+#!/bin/bash
+echo -e "\e[32m[\e[31m*\e[32m] \e[34minstalling"
+gpg --keyserver hkp://keys.gnupg.net --recv-key 7D8D0BF6
+gpg --fingerprint 7D8D0BF6
+gpg -a --export 7D8D0BF6 | apt-key add -
+apt update
+apt-get update
+apt-get install xfce4 xfce4-terminal tightvncserver -y
+apt-get install xfe -y
+apt-get clean
+mkdir ~/.vnc
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/xstartup -P ~/.vnc/
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/vncserver-start -P /usr/local/bin/
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/vncserver-stop -P /usr/local/bin/
+chmod +x ~/.vnc/xstartup
+chmod +x /usr/local/bin/vncserver-start
+chmod +x /usr/local/bin/vncserver-stop
+echo " "
+echo "You can now start vncserver by running vncserver-start"
+echo " "
+echo "It will ask you to enter a password when first time starting it."
+echo " "
+echo "The VNC Server will be started at 127.0.0.1:5901"
+echo " "
+echo "You can connect to this address with a VNC Viewer you prefer"
+echo " "
+echo "Connect to this address will open a window with Xfce4 Desktop Environment"
+echo " "
+echo " "
+echo " "
+echo "Running vncserver-start"
+echo " "
+echo " "
+echo " "
+echo "To Kill VNC Server just run vncserver-stop"
+echo " "
+echo " "
+echo " "
+echo "export DISPLAY=":1"" >> /etc/profile
+source /etc/profile
+vncserver-start
+rm -rf /root/.bash_profile
+EOM
 ./start-kali.sh
