@@ -90,29 +90,12 @@ pkg install wget -y
 pkg install python -y
 pkg install python2 -y
 pkg install openssh -y
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
-
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/hk4crprasad/ph/master/kali.sh ; wget https://raw.githubusercontent.com/hk4crprasad/ph/master/.bash_profile && bash kali.sh
 ls
 
 cd install-kali
-
-ls
-
-cp dekal.txt $HOME
-
-ls
-
 cd $HOME
-
-ls
-
 rm -rf install-kali
-
-ls
-
-echo -e "$p------->$yellow [copy below command] $p<--------"
-echo " "
-cat dekal.txt
 echo " "
 echo -e "$p------->$yellow [installation completed] $p<--------"
 echo " "
@@ -124,5 +107,5 @@ echo " "
 clear
 rm dekal.txt
 echo " "
-
+mv .bash_profile ${HOME}/kali-fs
 ./start-kali.sh
