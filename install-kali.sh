@@ -9,7 +9,7 @@ b='\033[1;34m'
 p='\033[1;35m'
 reset='\033[0m'
 echo " "
-echo " $red
+echo -e "$red
    ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄     ▄▄▄▄▄▄   ▄▄▄  ▄▄▄            ▄▄   ▄▄▄     ▄▄     ▄▄        ▄▄▄▄▄▄
  ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀██   ▀▀██▀▀    ██▄▄██             ██  ██▀     ████    ██        ▀▀██▀▀
  ██▄          ██     ██    ██     ██       ████              ██▄██       ████    ██          ██
@@ -19,68 +19,68 @@ echo " $red
   ▀▀▀▀▀       ▀▀     ▀▀    ▀▀▀  ▀▀▀▀▀▀   ▀▀▀  ▀▀▀            ▀▀    ▀▀  ▀▀    ▀▀  ▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀
                                                        version 3.0 "
 
-echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 echo " "
-echo "$green                   <--[Made by Sant kr.(Admin of Strix cyber Community]-->"
+echo -e "$green                   <--[Made by Sant kr.(Admin of Strix cyber Community]-->"
 
-echo "$cyan                ************************** "
-echo "$green              <~~(YouTube- STRIX.D)~~>"
-echo "$green              <~~(Instagram- @strix_21)~~>"
-echo "$green              <~~(GitHub- github.com/Strix2109)~~>"
+echo -e "$cyan                ************************** "
+echo -e "$green              <~~(YouTube- STRIX.D)~~>"
+echo -e "$green              <~~(Instagram- @strix_21)~~>"
+echo -e "$green              <~~(GitHub- github.com/Strix2109)~~>"
 echo " "
-echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
 echo " "
-echo  $p 'Please Wait ===+['$b'./                   '$p']\'
+echo -e $p 'Please Wait ===+['$b'./                   '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'..\                  '$p']|'
+echo -e $p 'Please Wait ===+['$b'..\                  '$p']|'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.../                 '$p']/'
+echo -e $p 'Please Wait ===+['$b'.../                 '$p']/'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'....\                '$p']\'
+echo -e $p 'Please Wait ===+['$b'....\                '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'...../               '$p']|'
+echo -e $p 'Please Wait ===+['$b'...../               '$p']|'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'......./             '$p']/'
+echo -e $p 'Please Wait ===+['$b'......./             '$p']/'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'........\            '$p']|'
+echo -e $p 'Please Wait ===+['$b'........\            '$p']|'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'........../          '$p']\'
+echo -e $p 'Please Wait ===+['$b'........../          '$p']\'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'..........\          '$p']/'
+echo -e $p 'Please Wait ===+['$b'..........\          '$p']/'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'............./       '$p']|'
+echo -e $p 'Please Wait ===+['$b'............./       '$p']|'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'..............\      '$p']/'
+echo -e $p 'Please Wait ===+['$b'..............\      '$p']/'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'............./       '$p']\'
+echo -e $p 'Please Wait ===+['$b'............./       '$p']\'
 sleep 0.6
 clear
-echo  $p 'Please Wait ===+['$b'...............\     '$p']|'
+echo -e $p 'Please Wait ===+['$b'...............\     '$p']|'
 sleep 0.5
 clear
-echo  $p 'Please Wait ===+['$b'................/    '$p']/'
+echo -e $p 'Please Wait ===+['$b'................/    '$p']/'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.................\   '$p']\'
+echo -e $p 'Please Wait ===+['$b'.................\   '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.................../ '$p']|'
+echo -e $p 'Please Wait ===+['$b'.................../ '$p']|'
 sleep 0.4
 clear
 
-echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
+echo -e "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
 echo " "
 cd $HOME
@@ -110,14 +110,14 @@ rm -rf install-kali
 
 ls
 
-echo "$p------->$yellow [copy below command] $p<--------"
+echo -e "$p------->$yellow [copy below command] $p<--------"
 echo " "
 cat dekal.txt
 echo " "
-echo "$p------->$yellow [installation completed] $p<--------"
+echo -e "$p------->$yellow [installation completed] $p<--------"
 echo " "
 sleep 50.10
-echo "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
+echo -e "$p------->$yellow [Kali Linux is starting wait...] $p<--------"
 echo " "
 sleep 4.30
 echo " "
