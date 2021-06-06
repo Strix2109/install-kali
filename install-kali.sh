@@ -1,5 +1,5 @@
 #install-kali by Strix cyber community
-folder=${HOME}kali-fs
+folder=${HOME}/kali-fs
 #colours
 cyan='\033[1;36m'
 green='\033[1;32m'
