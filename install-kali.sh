@@ -92,7 +92,7 @@ pkg install python -y
 pkg install python2 -y
 pkg install openssh -y
 pkg install wget openssl-tool proot -y && hash -r
-) 
+) &> /dev/null;
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali-xfce.sh | bash
 cd install-kali
 cd $HOME
