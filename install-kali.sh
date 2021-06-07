@@ -26,6 +26,7 @@ echo -e "$green                   <--[Made by Sant kr.(Admin of Strix cyber Comm
 echo -e "$cyan                ************************** "
 echo -e "$green              <~~(YouTube- STRIX.D)~~>"
 echo -e "$green              <~~(Instagram- @strix_21)~~>"
+echo -e "$green.             <~~(contributer- hk4crprasad)~~>"
 echo -e "$green              <~~(GitHub- github.com/Strix2109)~~>"
 echo " "
 echo -e "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
@@ -84,15 +85,15 @@ echo -e "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
 echo " "
 cd $HOME
-
+(
 apt-get update -y
 pkg install wget -y
 pkg install python -y
 pkg install python2 -y
 pkg install openssh -y
-pkg install wget openssl-tool proot -y && hash -r && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali-xfce.sh | bash
-ls
-
+pkg install wget openssl-tool proot -y && hash -r
+) &> /dev/null;
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali-xfce.sh | bash
 cd install-kali
 cd $HOME
 rm -rf install-kali
